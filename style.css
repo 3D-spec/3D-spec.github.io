@@ -1,0 +1,55 @@
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background:heavyrown;
+}
+
+div.grid-item {
+  width:50%;
+  padding:5px;
+}
+
+div.grid-item img {
+  width:100%;
+  border-radius:20px;
+  transition:all 0.4s;
+}
+
+div.grid-item img:hover {
+  opasity:0.5;
+  border-radius:1000px;
+}
+
+img {
+  filter: grayscale(80%);
+}
+
+h1{
+  color:lightgrey;
+  font-family:"Oxanium",sans-serif;
+  text-align:center;
+  font-size:50px;
+  margin:30px;
+}
+  
+p{
+  font-family:"Oxanium",sans-serif;
+  color:lightgrey;
+  font-size:18px;
+  text-align:center;
+}
+
+a.botton{
+  padding:20px;
+  background: white;
+  border-radius:10px;
+}
+
+div.test{
+  text-align:center;
+  margin-bottom:50px;
+}
